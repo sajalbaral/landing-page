@@ -92,6 +92,9 @@ Second section
 .second-container {
     padding: 40px 300px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-squares {
@@ -112,12 +115,16 @@ Second section
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .section-two-p {
     padding-top: 10px;
     width: 170px;
-    height: 170px;
+}
+
+.second-h {
+    padding-top: 20px;
 }
 
 /**
@@ -168,4 +175,18 @@ Forth section
 
 .forth-p {
     font-weight: lighter;
+}
+
+
+/**
+
+Footer
+
+**/
+
+.footer-container {
+    background-color: #1f2937;
+    padding: 30px;
+    color: #f9faf8;
+    text-align: center;
 }
