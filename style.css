@@ -20,11 +20,11 @@ ul {
     padding: 15px;
 }
 
-.header-logo {
+.nav-logo {
     font-size: 24px;
 }
 
-.header-links {
+.nav-links {
     display: flex;
     align-items: center;
     gap: 16px;
