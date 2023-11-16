@@ -15,6 +15,12 @@ button {
     font: inherit;
 }
 
+/**
+
+Navbar/First section
+
+**/
+
 .first-container {
     background-color: #1f2937;
     padding: 20px 250px;
@@ -35,8 +41,6 @@ button {
     align-items: center;
     gap: 16px;
 }
-
-
 
 .first-section {
     display: flex;
@@ -79,6 +83,12 @@ button {
     border: white 2px solid;
 }
 
+/**
+
+Second section
+
+**/
+
 .second-container {
     padding: 40px 300px;
     text-align: center;
@@ -108,4 +118,23 @@ button {
     padding-top: 10px;
     width: 170px;
     height: 170px;
+}
+
+/**
+
+Third section
+
+**/
+
+.third-section {
+    padding: 150px 400px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.right {
+    text-align: end;
+    padding-top: 10px;
 }
