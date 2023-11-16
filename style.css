@@ -138,3 +138,34 @@ Third section
     text-align: end;
     padding-top: 10px;
 }
+
+/**
+
+Forth section
+
+**/
+
+.forth-section {
+    padding: 120px 300px;
+    color: #e5e7eb;
+}
+
+.forth-flex {
+    display: flex;
+    background-color: #3882f6;
+    padding: 60px 80px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.forth-b {
+    background-color: #3882f6;
+    border: 2px white solid;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.forth-p {
+    font-weight: lighter;
+}
